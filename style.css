@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #FEE8B6;
+    overflow: hidden;
+}
+.container header{
+    font-size: xxx-large;
+    color: #191b26;
+    font-weight: 900;
+    margin-bottom: 2%;
+}
+.container p{
+    font-size: larger;
+    color: #4b4b4b;
+    font-weight: 600;
+    margin-bottom: 2%;
+
+}
+.container .time-content{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.container .time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.time .text{
+    font-weight: 500;
+}
+.time .number{
+    font-size: 40px;
+}
+.time .text{
+    font-size: 11px;
+    text-transform: capitalize;
+}
+.email-content p{
+    margin-top: 40px;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+   
+    justify-content: center;
+}
+.input-box input, .input-box button{
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 3%;
+}
+.input-box input{
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+}
+.input-box button{
+    border-radius: 0 8px 8px 0;
+    border-left: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    background-color: #3577F8;
+}
