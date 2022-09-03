@@ -78,3 +78,16 @@
     transition: all 0.3s ease;
     background-color: #3577F8;
 }
+@media (max-width: 450px){
+    .container header{
+        font-size: larger;
+    }
+    .container p{
+        font-size: medium;
+        text-align: center;
+    }
+    .email-content p{
+        text-align: center;
+        margin: 40px 2%;
+    }
+}
