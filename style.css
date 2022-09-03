@@ -91,4 +91,7 @@
         text-align: center;
         margin: 40px 2%;
     }
+    .input-box input{
+        width: 60%;
+    }
 }
