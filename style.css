@@ -85,6 +85,7 @@
     .container p{
         font-size: medium;
         text-align: center;
+        margin: 40px 2%;
     }
     .email-content p{
         text-align: center;
