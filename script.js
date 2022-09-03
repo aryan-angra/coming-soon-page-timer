@@ -19,7 +19,7 @@ if(minValue == 0){
     minValue = 60;
 }
 if(hourValue == 0){
-    dayvalue--;
+    dayValue--;
     hourValue = 24;
 }
 if(dayValue == 0){
